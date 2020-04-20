@@ -1,0 +1,16 @@
+{
+  "name": "Prathamesh",
+  "short_name": "Prathamesh Sahasrabhojane",
+  "description": "Know about me & my work. ~(Prathamesh Sahasrabhojane)",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000010",
+  "icons": [
+    {
+      "src": "assets/correct.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

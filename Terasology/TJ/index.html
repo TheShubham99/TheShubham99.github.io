@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-<iframe style="border: none;" width="100%" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXfUshvmjNuHVB2YGlLa6gC%2FTutorial-Journey%3Fnode-id%3D2%253A11%26scaling%3Dscale-down-width" allowfullscreen></iframe>
+<iframe style="border: none;" width="100%" height="750" id="myvideo" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXfUshvmjNuHVB2YGlLa6gC%2FTutorial-Journey%3Fnode-id%3D2%253A11%26scaling%3Dscale-down-width" allowfullscreen></iframe>
+
+
+
+<script>
+var elem = document.getElementById("myvideo");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+
+openFullscreen();
+</script>
 </html>
